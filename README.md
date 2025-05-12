@@ -37,26 +37,18 @@ This project was developed as part of a programming challenge to practice:
 
 ---
 
-## 📦 Project Structure
-SouthAmericanCurrencyConverter/
-├── src/
-│   ├── model/
-│   │   ├── ConversionOption.java
-│   │   └── ExchangeResponse.java
-│   ├── CurrencyConverter.java
-│   └── ExchangeRateService.java
-├── .gitignore
-└── README.md
+<pre> <code> ## 📦 Project Structure ```plaintext SouthAmericanCurrencyConverter/ ├── src/ │ ├── model/ │ │ ├── ConversionOption.java │ │ └── ExchangeResponse.java │ ├── CurrencyConverter.java │ └── ExchangeRateService.java ├── .gitignore └── README.md ``` </code> </pre>
 
 
 
-▶️ How to Run
-1. Clone the repository
-bash
-Copy
-Edit
+## ▶️ How to Run
+
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/YOUR_USERNAME/SouthAmericanCurrencyConverter.git
 cd SouthAmericanCurrencyConverter
+
 2. Open the project
 Use IntelliJ or your preferred Java IDE.
 
@@ -64,9 +56,7 @@ Place your source code inside the src/ directory.
 
 Import the Gson library (via Maven or manually as a .jar file).
 
-3. Set your API Key as an environment variable
-On Windows:
-
+3. Set your API Key as an environment variable (on Windows)
 powershell
 Copy
 Edit
